@@ -215,9 +215,6 @@ namespace PorraGirona
             // 
             // pictureBox1
             // 
-            this.pictureBox1.ErrorImage = global::PorraGirona.Properties.Resources.user;
-            this.pictureBox1.Image = global::PorraGirona.Properties.Resources.user;
-            this.pictureBox1.InitialImage = global::PorraGirona.Properties.Resources.user;
             this.pictureBox1.Location = new System.Drawing.Point(32, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(110, 104);

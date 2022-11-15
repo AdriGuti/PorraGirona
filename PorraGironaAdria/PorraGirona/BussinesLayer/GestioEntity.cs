@@ -100,7 +100,7 @@ namespace PorraGirona.BussinesLayer
             bool procCorrect = false;
             try
             {
-                connexio = new PostDbContext();
+                        connexio = new PostDbContext();
                 List<Puntuacions> puntslist = connexio.Puntuacions.ToList();
                 connexio.Puntuacions.RemoveRange(puntslist);
                 #region Calcul de les puntuacions
