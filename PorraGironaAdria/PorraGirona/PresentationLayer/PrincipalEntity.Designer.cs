@@ -297,9 +297,6 @@ namespace PorraGirona
             // pictureBoxImatgePenyista
             // 
             this.pictureBoxImatgePenyista.DataBindings.Add(new System.Windows.Forms.Binding("Image", this.penyistesBindingSource, "Imatge", true));
-            this.pictureBoxImatgePenyista.ErrorImage = global::PorraGirona.Properties.Resources.user;
-            this.pictureBoxImatgePenyista.Image = global::PorraGirona.Properties.Resources.user;
-            this.pictureBoxImatgePenyista.InitialImage = global::PorraGirona.Properties.Resources.user;
             this.pictureBoxImatgePenyista.Location = new System.Drawing.Point(51, 41);
             this.pictureBoxImatgePenyista.Name = "pictureBoxImatgePenyista";
             this.pictureBoxImatgePenyista.Size = new System.Drawing.Size(72, 81);
